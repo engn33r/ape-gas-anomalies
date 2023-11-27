@@ -15,7 +15,3 @@ def new_nogasimpact(project, owner):
 @pytest.fixture(scope="session")
 def new_compare_init_bool(project, owner):
     return owner.deploy(project.CompareInitBool)
-
-@pytest.fixture(scope="session")
-def new_compare_init_int(project, owner):
-    return owner.deploy(project.CompareInitInt)

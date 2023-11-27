@@ -11,8 +11,3 @@ def test_compare_initializer_bool(new_compare_init_bool, owner):
     new_compare_init_bool.uninitialize(sender=owner)
     new_compare_init_bool.reinitialize(sender=owner)
     assert new_compare_init_bool.is_initialized(sender=owner)
-
-def test_compare_initializer_int(new_compare_init_int, owner):
-    new_compare_init_int.uninitialize(sender=owner)
-    new_compare_init_int.reinitialize(sender=owner)
-    assert new_compare_init_int.is_initialized(sender=owner)

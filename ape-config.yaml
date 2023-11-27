@@ -2,4 +2,4 @@ name: vyper-gas-experiments
 
 ethereum:
   local:
-    default_provider: foundry
+    default_provider: hardhat
